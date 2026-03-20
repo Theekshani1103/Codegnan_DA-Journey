@@ -112,9 +112,6 @@ print(5&3)
 print(bin(5))#returns binary number
 
 #task --> now  you have all the operators create a checker task
-#git add.
-#git commit -m "operators usage"
-#git push - u origin main
 
 
 
