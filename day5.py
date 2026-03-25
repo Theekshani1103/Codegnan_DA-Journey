@@ -2,12 +2,14 @@
 Strings --> String is a collection of characters , which represented by "" or '' and we can access a string using
 indexing (numbering the string) string can also allow negative indexing and also slicing (cutting the string)(ex:print(any[7:15])).this is also immutable,
 where i could not able to modify on that particular vari...'''
-#any = 'python programming'
+
+'''#any = 'python programming'
 #print(any[20])
 #so = any.replace("python","Java")
 #print(any)
-#print(so)
+#print(so)'''
 '''
+
 a_day = 'i am Theekshani from visakhapatnam , i have completed my btech  in the year 2025 in electronics and communiction engineering'
 print(len(a_day))
 len()-->it is used to get the char present in the string
@@ -48,7 +50,9 @@ if "python" in some:
 else:
     print("no")'''
 
-
+word = input("Enter a word:")
+count = word.count('a')+ word.count('e')+ word.count('i')+ word.count('o')+ word.count('u')
+print("Number of vowels:",count)
 
 
 
