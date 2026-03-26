@@ -1,0 +1,5 @@
+a=int(input("enter the tuple value:"))
+b=int(input("enter the tuple value:"))
+c=int(input("enter the tuple value:"))
+t=(a,b,c)
+print(t)
