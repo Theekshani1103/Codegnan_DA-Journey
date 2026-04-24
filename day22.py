@@ -63,6 +63,29 @@ super()
 --> This is used to call methods of the parent class from the child class'''
 
 
+class person:
+    def name(self):
+        print("name: Theeku")
+
+class address:
+    def addr(self):
+        print("address: odisha")
+
+class contact:
+    def mobile(self):
+        print("mobile: 2929292929")
+
+class adhar(person,address,contact):
+    def adhar_no(self):
+        print("adhar number: 1274 4673 0000")
+
+my = adhar()
+my.name()
+my.addr()
+my.mobile()
+my.adhar_no()
+
+
         
 
 
