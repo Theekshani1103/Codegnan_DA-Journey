@@ -1,4 +1,6 @@
-'''casefold():-
+'''
+String methods
+casefold():-
 ---------
 text = "PYTHON"
 print(text.casefold())
@@ -104,7 +106,8 @@ for v in range(user_in+1):
       
 '''
 
-
+num = "1234"
+print(num.isdigit())
 
 
 
