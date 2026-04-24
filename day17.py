@@ -54,7 +54,7 @@ for value in mod(15):
     print(value)'''
 
 
-'''SBI_Theeku_AC_details={"name":"Theeku",
+SBI_Theeku_AC_details={"name":"Theeku",
                      "ATM PIN":"2004",
                      "Balance":5000}
 while True:
@@ -105,7 +105,7 @@ while True:
         else:
             print("Invalid PIN")
     else:
-        print("Enter valid 4 digit PIN")'''
+        print("Enter valid 4 digit PIN")
 
 
 
