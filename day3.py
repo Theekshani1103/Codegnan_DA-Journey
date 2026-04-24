@@ -129,6 +129,7 @@ print(type(d))
 e = complex(percent)
 print(e)
 print(type(e))
+
 f = 2+5j
 print(type(f))
 #g = int(f) #complex to int is not possible
