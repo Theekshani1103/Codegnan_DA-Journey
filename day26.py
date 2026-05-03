@@ -1,4 +1,3 @@
-'''
 Error Handling
 --------------
 try block
@@ -20,7 +19,9 @@ except:
 
 else block
 ----------
---> else keyword to define a block of code to be executed if no error were raised
+--> else keyword to define a block of code to be executed
+if no error were raised
+
 try:
   a = 9
   b = 10
@@ -100,7 +101,7 @@ except ValueError:
 except NameError:
     print("Variable not defined")
 else:
-    print("Result is:", result)'''
+    print("Result is:", result)
     
 
 
